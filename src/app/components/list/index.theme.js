@@ -26,7 +26,7 @@ export const listDanger = emotion(
     }
 );
 
-export default ({color, fontSize, margin, padding, backgroundColor}) => 
+export default ({color = 'black', fontSize = '14px', margin = '0', padding = '0', backgroundColor = 'white'}) => 
     emotion({
         color,
         fontSize,
